@@ -31,7 +31,6 @@ target_include_directories(
     "${PROJECT_BINARY_DIR}"
 )
 
-# <-- NEW IN STEP 4 -->
 install(TARGETS Tutorial DESTINATION bin)
 install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h" DESTINATION include)
 
