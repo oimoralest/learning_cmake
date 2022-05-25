@@ -43,7 +43,7 @@ add_test(NAME Runs COMMAND Tutorial 25)
 add_test(NAME Usage COMMAND Tutorial)
 set_tests_properties(Usage
   PROPERTIES PASS_REGULAR_EXPRESSION "Usage:.*number"
-  )
+)
 
 # define a function to simplify adding tests
 function(do_test target arg result)
